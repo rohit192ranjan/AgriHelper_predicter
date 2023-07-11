@@ -2,7 +2,6 @@ import pickle
 import numpy as np
 import streamlit as st
 from streamlit_option_menu import option_menu
-import sklearn
 
 crop_model = pickle.load(open('crop_prediction.pkl','rb'))
 fertilizer_model = pickle.load(open('fertilizer_prediction.pkl','rb'))
